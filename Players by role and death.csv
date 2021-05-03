@@ -1,0 +1,549 @@
+Game,Name,Alignment,Death,Human,Wolf,Other
+1,guywithhat,H,,1,0,0
+1,mystic,H,N2,1,0,0
+1,azrael,W,D1,0,1,0
+1,Randomizer,H,,1,0,0
+1,LaserWolf,H,,1,0,0
+1,Dieter,C,N1,1,0,0
+1,Enigmatic,C,D2,1,0,0
+1,Aponda,C,D2,1,0,0
+1,Waffles,W,D3,0,1,0
+1,Phil,W,D4,0,1,0
+,,,,,,
+2,Dieter,H,,1,0,0
+2,Reaper,H,,1,0,0
+2,liquidangel,W,ientali,0,1,0
+2,randomizer,H,,1,0,0
+2,Enigmatic,3rd,,0,0,1
+2,phil,C/W,,0,0,1
+2,azrael,WH,,0,1,0
+2,aponda,H,N2,1,0,0
+2,lymric,W,D1,0,1,0
+2,that kid,H,,1,0,0
+2,lazerwolf,C/W,,0,0,1
+2,Mystic,H,N1,1,0,0
+,,,,,,
+3,Reaper,H,D4,1,0,0
+3,randomizer,H,,1,0,0
+3,guywithhat,H,N3,1,0,0
+3,Dieter,C,N2,1,0,0
+3,liquidangel,W,N3,0,1,0
+3,azrael,C,D1,1,0,0
+3,phil,W,,0,1,0
+3,Enigmatic,C,D2,1,0,0
+3,lymric,C,D6,1,0,0
+3,that kid,H,,1,0,0
+3,aponda,W,D7,0,1,0
+3,laserwolf,H,D3,1,0,0
+3,haplo,H,N4,1,0,0
+3,kobu,C,D5,1,0,0
+,,,,,,
+4,Reaper,H,N3,1,0,0
+4,Phil,H,D1,1,0,0
+4,Randomizer,C,D3,1,0,0
+4,Guywithhat,W,D5,0,1,0
+4,azrael,H,N2,1,0,0
+4,that kid,H,,1,0,0
+4,liquidangel,H,D4 (miskill),1,0,0
+4,ben,H,D1 (vig),1,0,0
+4,lymric,H,,1,0,0
+4,mystic,H,N4,1,0,0
+4,haplo,W,D4,0,1,0
+4,Enigmatic,H,N1,1,0,0
+,,,,,,
+5,That _kid,W,,0,1,0
+5,guywithhat,H,,1,0,0
+5,liquidangel,H,D1,1,0,0
+5,randomizer,H,N3,1,0,0
+5,azrael,W,D5,0,1,0
+5,Enigmatic,H,,1,0,0
+5,haplo,H,N4,1,0,0
+5,lymric,W,D3,0,1,0
+5,phil,C,D2,1,0,0
+5,Dieter,H,"N1, N2",1,0,0
+5,Red,H,D5,1,0,0
+5,Reaper,H,D4,1,0,0
+0,,,,0,0,1
+6,Reaper,C,,1,0,0
+6,Randomizer,C,N3,1,0,0
+6,guywithhat,W,,0,1,0
+6,That _kid,C,,1,0,0
+6,liquidangel,C,N1,1,0,0
+6,lymric,C,D2,1,0,0
+6,Enigmatic,W,,0,1,0
+6,haplo,H,D3,1,0,0
+6,ben,W,,0,1,0
+6,Dieter,C,,1,0,0
+6,phil,H,D1,1,0,0
+,,,,,,
+7,Haplo,,D3,0,0,1
+7,Dieter,W,,0,1,0
+7,Reaper,H,,1,0,0
+7,liquidangel,H,,1,0,0
+7,guywithhat,W,,0,1,0
+7,phil,W,D2,0,1,0
+7,randomizer,H,,1,0,0
+7,ben,H,N2,1,0,0
+7,mystic,H,,1,0,0
+7,azrael,H,,1,0,0
+7,lymric,H,D1,1,0,0
+7,dr death,H,,1,0,0
+,,,,,,
+8,Guywithhat,H,,1,0,0
+8,Dieter,W,D3 (suicide),0,1,0
+8,Enigmatic,H,D1,1,0,0
+8,That _kid,H,N1,1,0,0
+8,dr. agon,H,,1,0,0
+8,ben,H,N1 (suicide),1,0,0
+8,Reaper,H,D2,1,0,0
+8,liquidangel,H,,1,0,0
+8,diage,H,,1,0,0
+8,dr death,W,D2,0,1,0
+8,phil,W,D3 (suicide),0,1,0
+,,,,,,
+9,Diage,H,,1,0,0
+9,Phil,C,,1,0,0
+9,ben,H,,1,0,0
+9,Dr. agon,W,,0,1,0
+9,haplo,C,D3,1,0,0
+9,That _kid,C,N1,1,0,0
+9,dr death,C,D4,1,0,0
+9,Enigmatic,H,N3,1,0,0
+9,Azrael,C,D2,1,0,0
+9,Liquidangel,C,N2,1,0,0
+9,Reaper,C,D1,1,0,0
+9,Dieter,W,N3,0,1,0
+,,,,,,
+10,Haplo,H,,1,0,0
+10,Dr. agon,H,,1,0,0
+10,azrael,H,,1,0,0
+10,guywithhat,H,N1,1,0,0
+10,phil,W,,0,1,0
+10,ben,H,,1,0,0
+10,liquidangel,W,,0,1,0
+10,That _kid,H,,1,0,0
+10,dr death,H,D1,1,0,0
+10,Enigmatic,H,,1,0,0
+10,Dieter,H,,1,0,0
+,,,,,,
+11,ben,W,D3,0,1,0
+11,that kid,C,D2,1,0,0
+11,guywithhat,H,N1,1,0,0
+11,liquidangel,H,,1,0,0
+11,haplo,H,,1,0,0
+11,phil,H,,1,0,0
+11,Enigmatic,W,D1,0,1,0
+,,,,,,
+12,Phil,H,D4,1,0,0
+12,Guywithhat,H,,1,0,0
+12,Enigmatic,H,N1,1,0,0
+12,Liquidangel,H,N3,1,0,0
+12,Dieter,H,D3,1,0,0
+12,ben,W,D2,0,1,0
+12,mystic,H,,1,0,0
+12,dr. agon,C,D1,1,0,0
+12,daron,H,D3 (vig),1,0,0
+12,Iron,W,,0,1,0
+,,,,,,
+13,No data,,,0,0,1
+,,,,,,
+14,Dr. AGon,WH,,0,1,0
+14,Dieter,C,N3,1,0,0
+14,Iron,W,,0,1,0
+14,Guy,H,,1,0,0
+14,Ben,H,N2,1,0,0
+14,staticworth,C,D2,1,0,0
+14,LiquidAngel,H,N1,1,0,0
+14,That_Kid,H,,1,0,0
+14,Phil,W,D1,0,1,0
+14,Daron,C,D4,1,0,0
+14,DMGunner,C,D3,1,0,0
+14,Reaper,C,,1,0,0
+,,,,,,
+15,Haplo,H,,1,0,0
+15,Iron,W,,0,1,0
+15,SwoopDoggyDog,C,D3,1,0,0
+15,Dieter,C,N1,1,0,0
+15,Daron,H,D1,1,0,0
+15,Liquidangel,W,,0,1,0
+15,Reaper,W,,0,1,0
+15,Dr. Agon,H,,1,0,0
+15,Dr. Death,C,N2,1,0,0
+15,Ben,C,D2,1,0,0
+15,Enigmatic,C,N3,1,0,0
+15,that_kid,H,,1,0,0
+,,,,,,
+16,reaper,C,,1,0,0
+16,dr. agon,C,,1,0,0
+16,guy,W?,,0,0,1
+16,liquidangel,C,,1,0,0
+16,haplo,H,,1,0,0
+16,that_kid,H,,1,0,0
+16,capt_dan,WH,,0,1,0
+16,ben,C,,1,0,0
+16,schlingy,C,,1,0,0
+16,staticworth,H,,1,0,0
+16,dmgunner,C,,1,0,0
+16,iron,H,,1,0,0
+,,,,,,
+17,Dieter,C,D1,1,0,0
+17,Reaper,C,,1,0,0
+17,Iron,C,,1,0,0
+17,Haplo,H,,1,0,0
+17,KillaCondor,C,,1,0,0
+17,Phil,H,,1,0,0
+17,Guy,W,D3,0,1,0
+17,Mystic,C,,1,0,0
+17,TRIWofl,C,N2,1,0,0
+17,That_Kid,W,D2,0,1,0
+,,,,,,
+18A,LiquidAngel,,,0,0,1
+,Reaper,,N1,0,0,1
+,Haplo,,,0,0,1
+,Iron,,,0,0,1
+,Ben,,D2,0,0,1
+,schlingy,,,0,0,1
+,AJ,,,0,0,1
+,Euphoria,,,0,0,1
+,capt_dan,,,0,0,1
+,adrienne,,,0,0,1
+,,,,,,
+18B,Dieter,,N2,0,0,1
+,Enig.matic,,N1,0,0,1
+,Randomizer,,,0,0,1
+,KillaCondor,,,0,0,1
+,That_Kid,,,0,0,1
+,TRIWofl,,,0,0,1
+,Phil,,D1,0,0,1
+,DMGUnner,,,0,0,1
+,Diage,,,0,0,1
+,zizzerzip,,,0,0,1
+,,,,,,
+19,Haplo,H,N2,1,0,0
+19,Mystic,W,D2,0,1,0
+19,Iron,H,,1,0,0
+19,Guy,H,N1,1,0,0
+19,Reaper,W,D3,0,1,0
+19,Liquidcraig,C,,1,0,0
+19,Ben,C,,1,0,0
+19,That_kid,C,,1,0,0
+19,Enigmatic,C,,1,0,0
+19,Dr. Agon,C,,1,0,0
+,,,,,,
+20,Ben,C,N4,1,0,0
+20,Dieter,W,N1,0,1,0
+20,Dr. Agon,W,,0,1,0
+20,Haplo,H,N2,1,0,0
+20,Iron,C,D5,1,0,0
+20,Reaper,C,D2,1,0,0
+20,That_kid,C,D4,1,0,0
+20,enig.matic,C,,1,0,0
+20,triwofl,C,D3,1,0,0
+20,killerconder,C,,1,0,0
+20,liquidangel,H,,1,0,0
+,,,,,,
+21,Iron,H,,1,0,0
+21,Dr. Agon,W,D2,0,1,0
+21,Haplo,H,D1,1,0,0
+21,Reaper,H,,1,0,0
+21,Dieter,W,N1,0,1,0
+21,Phil,W,D3,0,1,0
+21,Eep,C,N3,1,0,0
+21,Ben,C,D4,1,0,0
+21,Enig.matic,C,,1,0,0
+21,That_kid,C,,1,0,0
+21,Ribos,H,N2,1,0,0
+,,,,,,
+22,Ben,C,N1,1,0,0
+22,Ribos,C,N2,1,0,0
+22,Iron,C,,1,0,0
+22,Haplo,C,,1,0,0
+22,That_kid,C,D2,1,0,0
+22,Reaper,C,D1,1,0,0
+22,Dieter,H,,1,0,0
+22,phil,W,,0,1,0
+22,Eep,W,,0,1,0
+22,Guy,H,N2,1,0,0
+,,,,,,
+23,Iron,H,,1,0,0
+23,Eep,,N2,0,0,1
+23,Dr. Agon,W,,0,1,0
+23,Phil,,,0,0,1
+23,Dieter,H,D3,1,0,0
+23,Ribos,W,,0,1,0
+23,That_Kid,W,D1,0,1,0
+23,Ben,H,D2,1,0,0
+23,Guy,,N3,0,0,1
+23,Reaper,H,N1,1,0,0
+,,,,,,
+24,Dr. Agon,H,,1,0,0
+24,Dieter,C,,1,0,0
+24,Ben,H,,1,0,0
+24,Haplo,WH,N2,0,1,0
+24,That_Kid,W,,0,1,0
+24,Ribos,H,D1,1,0,0
+24,Guy,H,N1,1,0,0
+24,Iron,C,D2,1,0,0
+,,,,,,
+25,No data,,,0,0,1
+,,,,,,
+26,Guy,C,N1,1,0,0
+26,that_kid,C,,1,0,0
+26,haplo,W,D2,0,1,0
+26,iron,C,,1,0,0
+26,trientalis,C,,1,0,0
+26,dr. agon,C,N2,1,0,0
+26,eep,W,,0,1,0
+26,Ben,H,D1,1,0,0
+26,enig.matic,H,,1,0,0
+,,,,,,
+27,Trientalis,H,,1,0,0
+27,That_kid,H,,1,0,0
+27,guy,C,,1,0,0
+27,eep,C,N2,1,0,0
+27,enigmatic,W,D1,0,1,0
+27,Dieter,H,,1,0,0
+27,AJ,WH,D3,0,1,0
+27,Dr. Agon,W,,0,1,0
+27,Haplo,H,N1,1,0,0
+27,Ben,C,D2,1,0,0
+,,,,,,
+28,Iron,C,D1,1,0,0
+28,Guy,C,N1,1,0,0
+28,Aj,C,D2,1,0,0
+28,Karp,C,,1,0,0
+28,Dieter,C,N2,1,0,0
+28,Liquidangel,W,,0,1,0
+28,Dr. Agon,W,,0,1,0
+28,Haplo,C,D3,1,0,0
+,,,,,,
+29,That_kid,W,D3,0,1,0
+29,AJ,H,,1,0,0
+29,Iron,C,D1,1,0,0
+29,Eep,W,,0,1,0
+29,Guy,C,N3,1,0,0
+29,Trientalis,C,D2,1,0,0
+29,Mystic,3rd,N2,0,0,1
+29,Liquidangel,C,,1,0,0
+29,Dr. Agon,C,N1,1,0,0
+,,,,,,
+30,No data,,,0,0,1
+,,,,,,
+31,AJ,C,,1,0,0
+31,Dr. Agon,H,,1,0,0
+31,That_Kid,WH,D1,0,1,0
+31,Mystic,C,D2,1,0,0
+31,Trientalis,WH,D3,0,1,0
+31,Dieter,H,N1,1,0,0
+31,Eep,H,,1,0,0
+31,Ben,H,,1,0,0
+31,Deathbutt,H,N1 (vig),1,0,0
+,,,,,,
+32,Haplo,C,D1,1,0,0
+32,Dieter,H,D3,1,0,0
+32,Iron,C,N3,1,0,0
+32,LiquidAngel,W,D4,0,1,0
+32,That_kid,H,N4,1,0,0
+32,Dr. Agon,H,,1,0,0
+32,Eep,W,N2,0,1,0
+32,AJ,W,D5,0,1,0
+32,Enig.matic,H,,1,0,0
+32,Deathbutt,C,N1,1,0,0
+32,Ribos,C,D2,1,0,0
+,,,,,,
+33,Guy,H,N3,1,0,0
+33,Eep,H,D3,1,0,0
+33,AJ,H,N1,1,0,0
+33,Iron,H,N1,1,0,0
+33,Dr. Agon,H,N2,1,0,0
+33,Mystic,H,,1,0,0
+33,That_Kid ,H,D2,1,0,0
+33,Deathbutt,H,N3,1,0,0
+33,Liquidangel,H,D4,1,0,0
+33,Angrynarwhal,C,N2,1,0,0
+33,Enigmatic,C,D1,1,0,0
+,,,,,,
+34,Iron,H,,1,0,0
+34,That_kid,H,N5,1,0,0
+34,Eep,W,D5,0,1,0
+34,LiquidAngel,H,D1,1,0,0
+34,Dieter,C,D4,1,0,0
+34,AJ,C,N3,1,0,0
+34,Modi,W,D3,0,1,0
+34,AngryNarwhal,W,N1,0,1,0
+34,Haplo,H,D2,1,0,0
+34,Dr. Agon,H,,1,0,0
+34,Deathbutt,H,D6,1,0,0
+34,Mystic,C/W,,0,0,1
+,,,,,,
+35,Ktern,H,N4,1,0,0
+35,Dieter,W,removed,0,1,0
+35,Iron,H,N5,1,0,0
+35,Modi,H,D3,1,0,0
+35,deathbutt,WH,D5,0,1,0
+35,Guy,H,,1,0,0
+35,Dr. Agon,H,N3,1,0,0
+35,AngryNarwhal,H,D4,1,0,0
+35,anime,H,N2,1,0,0
+35,aj,WH,D9,0,1,0
+35,Trientalis,WH,D8,0,1,0
+35,Valex,H,N7,1,0,0
+35,Mystic,H,N1,1,0,0
+,,,,,,
+36,guy,WH,,0,1,0
+36,deathbutt,H,,1,0,0
+36,angrynarwhal,WH,,0,1,0
+36,dr. agon,WH,D3,0,1,0
+36,modi,H,N4,1,0,0
+36,ktern,WH,,0,1,0
+36,mystic,H,N1,1,0,0
+36,valex,H,D5,1,0,0
+36,dieter,H,N3,1,0,0
+36,trientalis,H,,1,0,0
+36,aj,WH,D4,0,1,0
+36,iron,H,N3,1,0,0
+,,,,,,
+37,Guy,H,D1,1,0,0
+37,eep,WH,D3,0,1,0
+37,Modi,H,,1,0,0
+37,AngryNarwhal,W,D2,0,1,0
+37,Iron,H,N3,1,0,0
+37,Dieter,H,,1,0,0
+37,Death butt,H,,1,0,0
+37,AzraelJaffar,H,,1,0,0
+37,Mystic,H,N2,1,0,0
+37,Haplo,W,,0,1,0
+37,Reaper,H,N1,1,0,0
+,,,,,,
+38,AngryNarwhal,C,D1,1,0,0
+38,Eep,H,,1,0,0
+38,Guy,W,,0,1,0
+38,Reaper,W,,0,1,0
+38,Modi,H,N2,1,0,0
+38,AJ,C,D2,1,0,0
+38,Iron,H,,1,0,0
+38,Dieter,H,N1,1,0,0
+38,Phil,W,D3,0,1,0
+38,Deathbutt,H,N4,1,0,0
+38,Bigbird,H,N3,1,0,0
+38,Trientalis,C,D4,1,0,0
+,,,,,,
+39,Modi,C,,1,0,0
+39,eep,C,,1,0,0
+39,Iron,C,,1,0,0
+39,deathbutt,C,,1,0,0
+39,angrynarwhal,W,,0,1,0
+39,reaper,C,,1,0,0
+39,phil,W,,0,1,0
+39,bigbird,W,,0,1,0
+39,trientalis,W,,0,1,0
+39,guy,C,,1,0,0
+,,,,,,
+40,no data,,,0,0,1
+,,,,,,
+41,Trient,C,,1,0,0
+41,Modi,C,,1,0,0
+41,Iron,H,D2,1,0,0
+41,Guy,H,D2,1,0,0
+41,Eep,C,N1,1,0,0
+41,AngryNarwhal,WH,D1,0,1,0
+41,Deathbutt,H,,1,0,0
+41,Phil,W,D3,0,1,0
+41,Dieter,H,,1,0,0
+,,,,,,
+42,Guy,C,N4,1,0,0
+42,Modi,W,,0,1,0
+42,eep,C,N1,1,0,0
+42,Deathbutt,C,,1,0,0
+42,Dr. Agon,C,D3,1,0,0
+42,Trientalis,C,N3,1,0,0
+42,Phil,C,D1,1,0,0
+42,SwoopDoggyDog,H,N2,1,0,0
+42,AngryNarwhal,H,,1,0,0
+42,That_kid,W,D4,0,1,0
+42,Dieter,W,D2,0,1,0
+,,,,,,
+43,eep,H,,1,0,0
+43,iron,H,n2,1,0,0
+43,AngryNarwhal,W,,0,1,0
+43,swoopdoggydog,WH,N3,0,1,0
+43,guy,3rd,,0,0,1
+43,modi,C,N1,1,0,0
+43,Trient,H,D2,1,0,0
+43,Dr. Agon,H,D1,1,0,0
+43,Vorporeal,H,D3,1,0,0
+,,,,,,
+44,Lymric,H,,1,0,0
+44,yeagz,H,,1,0,0
+44,iron,W,D4,0,1,0
+44,eep,H,,1,0,0
+44,liftedpixel,W,D3,0,1,0
+44,adderallforall,C/W,D2,0,0,1
+44,Deathbutt,H,N1,1,0,0
+44,trientalis,C,,1,0,0
+44,swoopdoggydog,W/C,D1,0,0,1
+44,xazarus,C,,1,0,0
+44,guy,3rd,,0,0,1
+,,,,,,
+45,Dr. Agon,WH,,0,1,0
+45,Trientali,WH,,0,1,0
+45,Lymric,H,N2,1,0,0
+45,Death butt,WH,,0,1,0
+45,guy,H,,1,0,0
+45,swoop,H,,1,0,0
+45,iron,H,N1,1,0,0
+45,xazarus,WH,,0,1,0
+45,yeagz,H,D1,1,0,0
+45,Cole,WH,D2,0,1,0
+45,Narwhal,WH,,0,1,0
+45,Adderallforall,H,,1,0,0
+,,,,,,
+46,Iron,C,N7,1,0,0
+46,Lymric,C,N1,1,0,0
+46,AngryNarwhal,W,D3,0,1,0
+46,Xazarus,W,N6,0,1,0
+46,Modi,C/W,D1,0,0,1
+46,Dr. Agon,H,N3,1,0,0
+46,Deathbutt,C/W,D8,0,0,1
+46,Swoop,C,D4,1,0,0
+46,Trientalis,W,D7,0,1,0
+46,Zoomlaski,H,,1,0,0
+46,Eep,W,D5,0,1,0
+46,Phil,H,N2,1,0,0
+46,liftedpixel/Dieter,C,D6,1,0,0
+46,Adderallforall,H,D2,1,0,0
+46,yeagz,H,N4,1,0,0
+46,ktern,H,,1,0,0
+,,,,,,
+47,Lymric,C,D4,1,0,0
+47,Guy,H,,1,0,0
+47,Angry Narwhal,C,D5,1,0,0
+47,Xazarus,C,N2,1,0,0
+47,Zoomlaski,H,,1,0,0
+47,AzraelJaffar,W,D3,0,1,0
+47,Deathbutt,C,N4,1,0,0
+47,Modi,WH,,0,1,0
+47,yeagz,C,N3,1,0,0
+47,Dr. Agon,H,N1,1,0,0
+47,Phil,C,D1,1,0,0
+47,Dieter,W,,0,1,0
+47,Trientalis,H,,1,0,0
+47,SwoopDoggyDog,C,D2,1,0,0
+47,Adderallforall,C,D6,1,0,0
+47,Ktern,C,N5,1,0,0
+,,,,,,
+48a,,,,,,
+,,,,,,
+48b,,,,,,
+,,,,,,
+48c,,,,,,
+,,,,,,
+49,xazarus,C,,1,0,0
+49,Iron,W,D4,0,1,0
+49,Cornichromicorn,C,D2,1,0,0
+49,yeagz,H,,1,0,0
+49,Valex,C,N1,1,0,0
+49,Trient,W,D3,0,1,0
+49,swoop,C,,1,0,0
+49,guy,H,D1,1,0,0
+49,eep,C,N2,1,0,0
