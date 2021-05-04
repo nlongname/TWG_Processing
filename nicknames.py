@@ -14,6 +14,8 @@ for profile in names.keys():
 def name_find(nick):
     nick = nick.lower()
     candidates=[]
+    if nick in name_lookup.keys():
+        return names[name_lookup[nick]][0]
     for n in name_list:
         if nick in n.lower() or n.lower() in nick:
             candidates.append(n)
