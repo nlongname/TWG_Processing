@@ -1,5 +1,16 @@
 import csv
 from nicknames import *
+
+import sys
+sys.path.append('/home/xazarus/.local/lib/python3.5/site-packages')
+
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.tag import pos_tag
+from nltk.stem.wordnet import WordNetLemmatizer
+
+from pandas import Dataframe
+
 is_wolf = {} #(profile_id, game#)
 is_human = {} #(profile_id, game#)
 wolfposts = []
@@ -59,3 +70,30 @@ with open('post_archive.csv', newline='') as csvfile:
                 humanposts.append(row[1])
             else:
                 otherposts.append(row[1])
+
+#switching gears on this part, since the previous lemmatization method couldn't easily deal with contractions
+#leaving it in in case I can use some of it later
+
+#wolf_tokens = map(word_tokenize, wolfposts)
+#human_tokens = map(word_tokenize, humanposts)
+#
+#def lemmatize(token_list):
+#    lemmatizer = WordNetLemmatizer()
+#    lemmatized = []
+#    for word, tag in pos_tag(token_list):
+#        if tag[:2] == 'NN':
+#            pos = 'n' #pos 'part of speech', comes from the NLTK function
+#        elif tag[:2] == 'VB':
+#            pos = 'v'
+#        else:
+#            pos = 'a'
+#        lemmatized.append(lemmatizer.lemmatize(word, pos))
+#    return lemmatized
+
+
+#wolf_tokens = map(lemmatize, wolf_tokens)
+#human_tokens = map(lemmatize, human_tokens)
+
+#wf = Dataframe(wolfposts, columns = ['raw_post'])
+#hf = Dataframe(humanposts, columns = ['raw_post'])
+

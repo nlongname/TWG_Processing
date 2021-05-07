@@ -6,7 +6,7 @@ import csv
 vote_record = [['voter_id', 'voter_name', 'votee_id', 'votee_name', 'post_id', 'datetime', 'game', 'page']]
 
 
-vote_tag="<b>"
+vote_tag="<b>" #some votes use <b></b>, others <strong></strong>, for the time being I'm just stitching the two sets of votes together manually
 for game in range(50):
     #vote_record.append([])
     gm = ''
