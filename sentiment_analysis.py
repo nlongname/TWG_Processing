@@ -23,6 +23,8 @@ import contractions
 
 from functools import reduce
 
+import matplotlib.pyplot as plt
+
 is_wolf = {} #(profile_id, game#)
 is_human = {} #(profile_id, game#)
 wolfposts = []
@@ -135,7 +137,8 @@ def process_posts(post_iter): #should work on any iterator, confirmed to work on
     ws['no_stopwords'] = ws['no_punctuation'].apply(lambda x: [word for word in x if word not in stop_words])
     ws['pos_tags'] = ws['no_stopwords'].apply(nltk.tag.pos_tag) #'pos' stands for 'part of speech'
     # ^this^ wasn't catching proper nouns on forum names, which I can fix
-    # this isn't perfect, because the tagger isn't taking into account that these are nouns as it goes through the sentence, but it's the best I can do without rewriting the tagger
+    # this isn't perfect, because the tagger isn't taking into account that these are nouns as it goes through the sentence
+    # but it's the best I can do without rewriting the tagger
     #ws['fixed_names'] = ws['pos_tags'].apply(lambda x: [fix_names(pair) for pair in x])
     ws['fixed_names'] = ws['pos_tags'].apply(lambda x: [replace_names(pair) for pair in x])
     ws['wordnet_pos'] = ws['fixed_names'].apply(lambda x: [(word, convert_pos(pos_tag)) for (word, pos_tag) in x])
@@ -144,8 +147,13 @@ def process_posts(post_iter): #should work on any iterator, confirmed to work on
 
 df['lemmatized'] = process_posts(df['post_text'])
 
-wolf_tokens = token_dicts(df[(df['wolf']==1)]['lemmatized'])
-human_tokens = token_dicts(df[(df['wolf']==0)]['lemmatized'])
+# train for the nth game, i.e. with the first (n-1) games
+# training for 47 is about an 80/20 split
+train_for = 47
+train_cutoff = list(df['game']).index(train_for)
+
+wolf_tokens = token_dicts(df[(df['wolf']==1) & (df['game'] < train_for)]['lemmatized'])
+human_tokens = token_dicts(df[(df['wolf']==0) & (df['game'] < train_for)]['lemmatized'])
 
 wolf_dataset = [(token_dict, "wolf") for token_dict in wolf_tokens]
 human_dataset = [(token_dict, "human") for token_dict in human_tokens]
@@ -153,14 +161,34 @@ human_dataset = [(token_dict, "human") for token_dict in human_tokens]
 dataset = wolf_dataset + human_dataset
 random.shuffle(dataset)
 
-cutoff = int(len(dataset)*.8)
-train_data = dataset[:cutoff]
-test_data = dataset[cutoff:]
+#cutoff = int(len(dataset)*.8)
+#train_data = dataset[:cutoff]
+#test_data = dataset[cutoff:]
+#shortclassifier = NaiveBayesClassifier.train(train_data)
+#print("Accuracy is:", classify.accuracy(shortclassifier, test_data))
+#print(shortclassifier.show_most_informative_features(20))
 
-shortclassifier = NaiveBayesClassifier.train(train_data)
+shortclassifier = NaiveBayesClassifier.train(dataset)
+#print("Accuracy is:", classify.accuracy(shortclassifier, test_data)
 
-print("Accuracy is:", classify.accuracy(shortclassifier, test_data))
-print(shortclassifier.show_most_informative_features(20))
+test_df = df[(df['game'] >= train_for)]
+grouped = test_df.groupby(['profile_id', 'game'])
+grouped_l = [g[1] for g in grouped]
+
+results=[]
+for g in grouped_l:
+    temp_tokens = token_dicts(g['lemmatized'])
+    if max(g['wolf']) == 0:
+        label="human"
+    elif min(g['wolf']) == 1:
+        label="wolf"
+    temp_data = [(token_dict, label) for token_dict in temp_tokens]
+    results.append(classify.accuracy(shortclassifier, temp_data))
+    #print("Accuracy for", g, "is:", results[-1])
+#print(results)
+#use classifier.classify() to clarify which/how many posts are wolfy
+
+
 
 # Notes:
 # Accuracy ~64-68% depending on the train/test split
@@ -209,3 +237,42 @@ print(megaclassifier.show_most_informative_features(20))
 # This is way worse, ~25-35% accurate
 # I think the classifier only uses presence rather than frequency
 # So the bigger chunks don't work as well because they lose more frequency info
+
+
+#prospective addition:
+df['td'] = df['lemmatized'].apply(lambda x: dict([token, True] for token in x))
+#note: maybe don't assume there's a wolf column? or have one version for training and another for testing
+df['label']=df.apply(lambda row: 'wolf'*row['wolf'] + 'human'*(1-row['wolf']), axis=1)
+df['tdl'] = df.apply(lambda row: (row['td'], row['label']), axis=1)
+#for testing:
+df['predicted']=df['td'].apply(shortclassifier.classify)
+df['wolf_prob'] = df['td'].apply(lambda x: shortclassifier.prob_classify(x).prob('wolf'))
+
+#work in progress
+words = reduce(lambda x, y: list(set(x+y)), df['lemmatized'])[:3000]
+rf = pd.DataFrame()
+for w in words:
+    print(w, words.index(w))
+    rf[w] = df['td'].apply(lambda x: int(w in x.keys()))
+X_train = rf.iloc[:train_cutoff,:]
+X_test = rf.iloc[train_cutoff:,:]
+y_train = df.iloc[:train_cutoff,:]['wolf']
+y_test = df.iloc[train_cutoff:,:]['wolf']
+
+from sklearn.ensemble import RandomForestRegressor
+
+model = RandomForestRegressor()
+model.fit(X_train, y_train)
+print(model.score(X_test, y_test)) #note, this is R squared, not accuracy
+
+# Accuracy is terrible, my shell crashes if I use more than 1/5 of the words
+# and printing to test/improve speed revealed many punctuation issues
+
+# I think the previous approach is better and more manageable
+
+#non-training data only
+wolf_probs = df[(df['wolf']==1) & (df['game'] >= train_for)]['wolf_prob']
+human_probs = df[(df['wolf']==0) & (df['game'] >= train_for)]['wolf_prob']
+
+#plt.hist(human_probs, bins=25)
+#plt.hist(wolf_probs, bins=25)
